@@ -1,5 +1,6 @@
 package com.nhnacademy.project.repository;
 
+import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Component;
 
@@ -24,4 +25,17 @@ public class BasicTariffRepository implements TariffRepository {
         return this.waterBillList;
     }
 
+    @Override
+    public void setBillTotal(int bill) {
+        for (WaterBill waterBill : waterBillList) {
+            waterBill.setBillTotal(waterBill.getUnitPrice() * bill);
+        }
+    }
+
+    @Override
+    public List<WaterBill> findTop5() {
+        List<WaterBill> result = new ArrayList<>(this.waterBillList);
+        result.sort(new WaterBillComparator());
+        return result.subList(0,5);
+    }
 }

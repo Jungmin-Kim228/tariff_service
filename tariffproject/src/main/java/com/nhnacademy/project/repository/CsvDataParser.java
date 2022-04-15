@@ -19,10 +19,9 @@ public class CsvDataParser implements DataPaser {
         String line;
 
         try (BufferedReader br = new BufferedReader(new InputStreamReader(new ClassPathResource(path).getInputStream()))) {
+            br.readLine();
             while ((line = br.readLine()) != null) {
                 String[] field = line.split(",");
-                if (checkFirstLine(field.length))
-                    continue;
                 trimContents(field);
                 WaterBill waterBill = new WaterBill(Integer.parseInt(field[0]),field[1],field[2],Integer.parseInt(field[6]));
                 parseResult.add(waterBill);

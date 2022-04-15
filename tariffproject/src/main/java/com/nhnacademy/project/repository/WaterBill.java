@@ -22,6 +22,10 @@ public class WaterBill {
         return this.unitPrice;
     }
 
+    public int getBillTotal() {
+        return this.BillTotal;
+    }
+
     @Override
     public String toString() {
         return "WaterBill{" +

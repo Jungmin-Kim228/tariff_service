@@ -7,4 +7,8 @@ public interface TariffRepository {
     void load();
 
     List<WaterBill> findAll();
+
+    void setBillTotal(int bill);
+
+    List<WaterBill> findTop5();
 }
