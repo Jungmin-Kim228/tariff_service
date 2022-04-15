@@ -9,5 +9,3 @@ n
 >src/main/java/com/nhnacademy/project/repository/WaterBill.java,7\a\7a940267287b45dcf299b2723b40168cfbbc936c
 n
 >src/main/java/com/nhnacademy/project/repository/DataPaser.java,d\0\d051f32c5a74a7024cb7f3d945281cb9bd8198e6
-z
-Jsrc/main/java/com/nhnacademy/project/repository/BasicTariffRepository.java,a\3\a37ce76bec029e6f53aaa56610ad69cbd84c2b7d
