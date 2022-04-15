@@ -21,4 +21,15 @@ public class WaterBill {
     public int getUnitPrice() {
         return this.unitPrice;
     }
+
+    @Override
+    public String toString() {
+        return "WaterBill{" +
+            "seq=" + seq +
+            ", city='" + city + '\'' +
+            ", sector='" + sector + '\'' +
+            ", unitPrice=" + unitPrice +
+            ", BillTotal=" + BillTotal +
+            '}';
+    }
 }

@@ -9,7 +9,7 @@ import org.springframework.core.io.ClassPathResource;
 
 // csv 파일 파싱(필요없는 정보 제거, 공백 제거)
 public class CsvDataParser implements DataPaser {
-
+    private final int FIRST_LINE_LENGTH = 8;
     @Override
     public List<WaterBill> parse(String path) {
         List<WaterBill> parseResult = new ArrayList<>();
@@ -17,7 +17,10 @@ public class CsvDataParser implements DataPaser {
 
         try (BufferedReader br = new BufferedReader(new InputStreamReader(new ClassPathResource(path).getInputStream()))) {
             while ((line = br.readLine()) != null) {
-                String[] field = line.trim().split(",");
+                String[] field = line.split(",");
+                if (checkFirstLine(field.length))
+                    continue;
+                trimContents(field);
                 WaterBill waterBill = new WaterBill(Integer.parseInt(field[0]),field[1],field[2],Integer.parseInt(field[6]));
                 parseResult.add(waterBill);
             }
@@ -25,5 +28,15 @@ public class CsvDataParser implements DataPaser {
             e.printStackTrace();
         }
         return parseResult;
+    }
+
+    private boolean checkFirstLine(int length) {
+        return length == FIRST_LINE_LENGTH;
+    }
+
+    private String[] trimContents(String[] line) {
+        for (int i = 0; i < line.length; i++)
+            line[i] = line[i].trim();
+        return line;
     }
 }
