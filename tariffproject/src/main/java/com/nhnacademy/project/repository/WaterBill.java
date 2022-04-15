@@ -1,4 +1,4 @@
-package repository;
+package com.nhnacademy.project.repository;
 
 public class WaterBill {
     private int seq;

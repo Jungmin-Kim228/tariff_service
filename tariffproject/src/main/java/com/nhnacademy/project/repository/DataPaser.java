@@ -1,4 +1,4 @@
-package repository;
+package com.nhnacademy.project.repository;
 
 import java.util.List;
 

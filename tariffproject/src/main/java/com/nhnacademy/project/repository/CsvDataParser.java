@@ -1,4 +1,4 @@
-package repository;
+package com.nhnacademy.project.repository;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,10 +6,13 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.stereotype.Component;
 
 // csv 파일 파싱(필요없는 정보 제거, 공백 제거)
+@Component
 public class CsvDataParser implements DataPaser {
     private final int FIRST_LINE_LENGTH = 8;
+
     @Override
     public List<WaterBill> parse(String path) {
         List<WaterBill> parseResult = new ArrayList<>();
