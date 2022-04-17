@@ -1,6 +1,6 @@
 package com.nhnacademy.project.aspect;
 
-import com.nhnacademy.project.config.Mainconfig;
+import com.nhnacademy.project.config.MainConfig;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -12,7 +12,7 @@ import org.springframework.util.StopWatch;
 @Aspect
 @Component
 public class LoggingAspect {
-    private static Log log = LogFactory.getLog(Mainconfig.class);
+    private static Log log = LogFactory.getLog(MainConfig.class);
 
     @Around("within(com.nhnacademy.project..*)")
     public Object loggingSendMessage(ProceedingJoinPoint pjp) throws Throwable {

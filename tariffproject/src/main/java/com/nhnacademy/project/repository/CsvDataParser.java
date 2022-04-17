@@ -11,7 +11,6 @@ import org.springframework.stereotype.Component;
 // csv 파일 파싱(필요없는 정보 제거, 공백 제거)
 @Component
 public class CsvDataParser implements DataPaser {
-    //private final int FIRST_LINE_LENGTH = 8;
 
     @Override
     public List<WaterBill> parse(String path) {
@@ -32,13 +31,8 @@ public class CsvDataParser implements DataPaser {
         return parseResult;
     }
 
-//    private boolean checkFirstLine(int length) {
-//        return length == FIRST_LINE_LENGTH;
-//    }
-
-    private String[] trimContents(String[] line) {
+    private void trimContents(String[] line) {
         for (int i = 0; i < line.length; i++)
             line[i] = line[i].trim();
-        return line;
     }
 }

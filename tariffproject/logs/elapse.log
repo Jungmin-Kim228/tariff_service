@@ -38,3 +38,137 @@
 18:25:55.213 [main] INFO  c.n.project.config.Mainconfig - 279600 ns
 18:25:55.213 [main] INFO  c.n.project.config.Mainconfig - BasicResultReport.reportTop5(..): 
 18:25:55.213 [main] INFO  c.n.project.config.Mainconfig - 676600 ns
+16:05:40.685 [main] INFO  c.n.project.config.Mainconfig - CsvDataParser.parse(..): 
+16:05:40.700 [main] INFO  c.n.project.config.Mainconfig - 20412200 ns
+16:05:40.700 [main] INFO  c.n.project.config.Mainconfig - BasicTariffRepository.load(): 
+16:05:40.700 [main] INFO  c.n.project.config.Mainconfig - 56202600 ns
+16:05:43.227 [main] INFO  c.n.project.config.Mainconfig - BasicTariffRepository.setBillTotal(..): 
+16:05:43.228 [main] INFO  c.n.project.config.Mainconfig - 126200 ns
+16:05:43.228 [main] INFO  c.n.project.config.Mainconfig - BasicTariffService.calculateBillTotal(..): 
+16:05:43.228 [main] INFO  c.n.project.config.Mainconfig - 7620000 ns
+16:05:43.234 [main] INFO  c.n.project.config.Mainconfig - BasicTariffRepository.findTop5(): 
+16:05:43.234 [main] INFO  c.n.project.config.Mainconfig - 1872900 ns
+16:05:43.248 [main] INFO  c.n.project.config.Mainconfig - BasicResultReport.reportTop5(..): 
+16:05:43.248 [main] INFO  c.n.project.config.Mainconfig - 19874900 ns
+16:05:45.338 [main] INFO  c.n.project.config.Mainconfig - BasicTariffRepository.setBillTotal(..): 
+16:05:45.338 [main] INFO  c.n.project.config.Mainconfig - 40300 ns
+16:05:45.338 [main] INFO  c.n.project.config.Mainconfig - BasicTariffService.calculateBillTotal(..): 
+16:05:45.338 [main] INFO  c.n.project.config.Mainconfig - 283200 ns
+16:05:45.338 [main] INFO  c.n.project.config.Mainconfig - BasicTariffRepository.findTop5(): 
+16:05:45.338 [main] INFO  c.n.project.config.Mainconfig - 231300 ns
+16:05:45.339 [main] INFO  c.n.project.config.Mainconfig - BasicResultReport.reportTop5(..): 
+16:05:45.339 [main] INFO  c.n.project.config.Mainconfig - 619100 ns
+16:10:59.213 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:10:59.221 [main] INFO  c.n.project.config.MainConfig - 11107700 ns
+16:10:59.221 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.load(): 
+16:10:59.221 [main] INFO  c.n.project.config.MainConfig - 41527200 ns
+16:11:00.893 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.setBillTotal(..): 
+16:11:00.893 [main] INFO  c.n.project.config.MainConfig - 126799 ns
+16:11:00.893 [main] INFO  c.n.project.config.MainConfig - BasicTariffService.calculateBillTotal(..): 
+16:11:00.893 [main] INFO  c.n.project.config.MainConfig - 5067100 ns
+16:11:00.899 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.findTop5(): 
+16:11:00.899 [main] INFO  c.n.project.config.MainConfig - 1502000 ns
+16:11:00.911 [main] INFO  c.n.project.config.MainConfig - BasicResultReport.reportTop5(..): 
+16:11:00.911 [main] INFO  c.n.project.config.MainConfig - 17724100 ns
+16:11:02.262 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.setBillTotal(..): 
+16:11:02.262 [main] INFO  c.n.project.config.MainConfig - 55201 ns
+16:11:02.262 [main] INFO  c.n.project.config.MainConfig - BasicTariffService.calculateBillTotal(..): 
+16:11:02.262 [main] INFO  c.n.project.config.MainConfig - 406300 ns
+16:11:02.263 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.findTop5(): 
+16:11:02.263 [main] INFO  c.n.project.config.MainConfig - 291600 ns
+16:11:02.263 [main] INFO  c.n.project.config.MainConfig - BasicResultReport.reportTop5(..): 
+16:11:02.263 [main] INFO  c.n.project.config.MainConfig - 718800 ns
+16:11:03.017 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.setBillTotal(..): 
+16:11:03.017 [main] INFO  c.n.project.config.MainConfig - 48900 ns
+16:11:03.017 [main] INFO  c.n.project.config.MainConfig - BasicTariffService.calculateBillTotal(..): 
+16:11:03.018 [main] INFO  c.n.project.config.MainConfig - 431200 ns
+16:11:03.018 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.findTop5(): 
+16:11:03.018 [main] INFO  c.n.project.config.MainConfig - 357599 ns
+16:11:03.020 [main] INFO  c.n.project.config.MainConfig - BasicResultReport.reportTop5(..): 
+16:11:03.020 [main] INFO  c.n.project.config.MainConfig - 2017301 ns
+16:12:16.909 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:12:16.919 [main] INFO  c.n.project.config.MainConfig - 9550901 ns
+16:12:16.919 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.load(): 
+16:12:16.920 [main] INFO  c.n.project.config.MainConfig - 42253899 ns
+16:12:16.922 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.findAll(): 
+16:12:16.922 [main] INFO  c.n.project.config.MainConfig - 41100 ns
+16:15:50.797 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:15:50.811 [main] INFO  c.n.project.config.MainConfig - 17323501 ns
+16:15:50.811 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.load(): 
+16:15:50.811 [main] INFO  c.n.project.config.MainConfig - 48330401 ns
+16:15:50.815 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.findAll(): 
+16:15:50.815 [main] INFO  c.n.project.config.MainConfig - 43599 ns
+16:15:50.907 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.findAll(): 
+16:15:50.908 [main] INFO  c.n.project.config.MainConfig - 5500 ns
+16:18:26.181 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:18:26.190 [main] INFO  c.n.project.config.MainConfig - 16152900 ns
+16:18:26.190 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.load(): 
+16:18:26.190 [main] INFO  c.n.project.config.MainConfig - 39881500 ns
+16:18:26.193 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.setBillTotal(..): 
+16:18:26.195 [main] INFO  c.n.project.config.MainConfig - 317000 ns
+16:18:26.195 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.findAll(): 
+16:18:26.196 [main] INFO  c.n.project.config.MainConfig - 82500 ns
+16:19:21.176 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:19:21.185 [main] INFO  c.n.project.config.MainConfig - 9169999 ns
+16:19:21.185 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.load(): 
+16:19:21.185 [main] INFO  c.n.project.config.MainConfig - 35201001 ns
+16:19:21.188 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.setBillTotal(..): 
+16:19:21.189 [main] INFO  c.n.project.config.MainConfig - 125900 ns
+16:19:21.189 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.findAll(): 
+16:19:21.189 [main] INFO  c.n.project.config.MainConfig - 36899 ns
+16:20:38.813 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:20:38.824 [main] INFO  c.n.project.config.MainConfig - 10724800 ns
+16:20:38.824 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.load(): 
+16:20:38.824 [main] INFO  c.n.project.config.MainConfig - 38089200 ns
+16:20:40.607 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.setBillTotal(..): 
+16:20:40.607 [main] INFO  c.n.project.config.MainConfig - 132299 ns
+16:20:40.607 [main] INFO  c.n.project.config.MainConfig - BasicTariffService.calculateBillTotal(..): 
+16:20:40.607 [main] INFO  c.n.project.config.MainConfig - 7691900 ns
+16:20:40.613 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.findTop5(): 
+16:20:40.613 [main] INFO  c.n.project.config.MainConfig - 1637600 ns
+16:20:40.630 [main] INFO  c.n.project.config.MainConfig - BasicResultReport.reportTop5(..): 
+16:20:40.630 [main] INFO  c.n.project.config.MainConfig - 22774501 ns
+16:26:29.391 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:26:29.403 [main] INFO  c.n.project.config.MainConfig - 15599100 ns
+16:26:29.404 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.load(): 
+16:26:29.404 [main] INFO  c.n.project.config.MainConfig - 45740601 ns
+16:26:29.411 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.setBillTotal(..): 
+16:26:29.412 [main] INFO  c.n.project.config.MainConfig - 417800 ns
+16:26:29.418 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.findTop5(): 
+16:26:29.418 [main] INFO  c.n.project.config.MainConfig - 5848800 ns
+16:27:31.724 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:27:31.732 [main] INFO  c.n.project.config.MainConfig - 9165600 ns
+16:27:31.732 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.load(): 
+16:27:31.732 [main] INFO  c.n.project.config.MainConfig - 32610700 ns
+16:27:31.735 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.setBillTotal(..): 
+16:27:31.735 [main] INFO  c.n.project.config.MainConfig - 134400 ns
+16:27:31.737 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.findTop5(): 
+16:27:31.737 [main] INFO  c.n.project.config.MainConfig - 1726101 ns
+16:31:18.736 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:31:18.744 [main] INFO  c.n.project.config.MainConfig - 13279999 ns
+16:31:18.745 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.load(): 
+16:31:18.745 [main] INFO  c.n.project.config.MainConfig - 42700400 ns
+16:31:18.750 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.setBillTotal(..): 
+16:31:18.750 [main] INFO  c.n.project.config.MainConfig - 133400 ns
+16:31:18.750 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.findAll(): 
+16:31:18.750 [main] INFO  c.n.project.config.MainConfig - 38100 ns
+16:32:50.598 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:32:50.611 [main] INFO  c.n.project.config.MainConfig - 14651399 ns
+16:32:50.612 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.load(): 
+16:32:50.612 [main] INFO  c.n.project.config.MainConfig - 45217900 ns
+16:32:50.643 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.setBillTotal(..): 
+16:32:50.643 [main] INFO  c.n.project.config.MainConfig - 127200 ns
+16:32:50.643 [main] INFO  c.n.project.config.MainConfig - BasicTariffService.calculateBillTotal(..): 
+16:32:50.643 [main] INFO  c.n.project.config.MainConfig - 28054100 ns
+16:32:50.643 [main] INFO  c.n.project.config.MainConfig - BasicTariffRepository.findAll(): 
+16:32:50.643 [main] INFO  c.n.project.config.MainConfig - 33499 ns
+16:35:35.007 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:35:35.019 [main] INFO  c.n.project.config.MainConfig - 23373601 ns
+16:36:46.997 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:36:47.004 [main] INFO  c.n.project.config.MainConfig - 18257300 ns
+16:37:54.613 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:37:54.626 [main] INFO  c.n.project.config.MainConfig - 18706400 ns
+16:42:07.348 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:42:07.360 [main] INFO  c.n.project.config.MainConfig - 105610000 ns
+16:42:16.150 [main] INFO  c.n.project.config.MainConfig - CsvDataParser.parse(..): 
+16:42:16.158 [main] INFO  c.n.project.config.MainConfig - 24909799 ns

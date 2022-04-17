@@ -36,4 +36,14 @@ public class WaterBill {
             ", BillTotal=" + BillTotal +
             '}';
     }
+
+    // test code를 위해 작성
+    public String getCity() {
+        return this.city;
+    }
+
+    // test code를 위해 작성
+    public String getSector() {
+        return this.sector;
+    }
 }
