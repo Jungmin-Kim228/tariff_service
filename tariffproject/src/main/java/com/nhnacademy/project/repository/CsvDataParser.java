@@ -11,16 +11,17 @@ import org.springframework.stereotype.Component;
 // csv 파일 파싱(필요없는 정보 제거, 공백 제거)
 @Component
 public class CsvDataParser implements DataPaser {
-
+    private static final int FIRST_LINE_IGNORE = 8;
     @Override
     public List<WaterBill> parse(String path) {
         List<WaterBill> parseResult = new ArrayList<>();
         String line;
 
         try (BufferedReader br = new BufferedReader(new InputStreamReader(new ClassPathResource(path).getInputStream()))) {
-            br.readLine();
             while ((line = br.readLine()) != null) {
                 String[] field = line.split(",");
+                if (field.length == FIRST_LINE_IGNORE)
+                    continue;
                 trimContents(field);
                 WaterBill waterBill = new WaterBill(Integer.parseInt(field[0]),field[1],field[2],Integer.parseInt(field[6]));
                 parseResult.add(waterBill);

@@ -6,7 +6,6 @@ com\nhnacademy\project\repository\DataPaser.class
 com\nhnacademy\project\repository\CsvDataParser.class
 com\nhnacademy\project\config\MainConfig.class
 com\nhnacademy\project\service\ResultReport.class
-Main.class
 com\nhnacademy\project\service\BasicTariffService.class
 com\nhnacademy\project\repository\WaterBillComparator.class
 com\nhnacademy\project\repository\TariffRepository.class

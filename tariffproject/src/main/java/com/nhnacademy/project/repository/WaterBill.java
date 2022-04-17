@@ -5,7 +5,7 @@ public class WaterBill {
     private String city;
     private String sector;
     private int unitPrice;
-    private int BillTotal;
+    private int billTotal;
 
     public WaterBill(int seq, String city, String sector, int unitPrice) {
         this.seq = seq;
@@ -15,7 +15,7 @@ public class WaterBill {
     }
 
     public void setBillTotal(int billTotal) {
-        this.BillTotal = billTotal;
+        this.billTotal = billTotal;
     }
 
     public int getUnitPrice() {
@@ -23,7 +23,7 @@ public class WaterBill {
     }
 
     public int getBillTotal() {
-        return this.BillTotal;
+        return this.billTotal;
     }
 
     @Override
@@ -33,7 +33,7 @@ public class WaterBill {
             ", city='" + city + '\'' +
             ", sector='" + sector + '\'' +
             ", unitPrice=" + unitPrice +
-            ", BillTotal=" + BillTotal +
+            ", BillTotal=" + billTotal +
             '}';
     }
 

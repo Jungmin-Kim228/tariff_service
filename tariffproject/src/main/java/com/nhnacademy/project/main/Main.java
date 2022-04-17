@@ -1,3 +1,5 @@
+package com.nhnacademy.project.main;
+
 import com.nhnacademy.project.repository.BasicTariffRepository;
 import com.nhnacademy.project.repository.TariffRepository;
 import com.nhnacademy.project.service.BasicResultReport;
